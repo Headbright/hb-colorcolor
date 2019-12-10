@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Headbright/hb-colorcolor",
   "devDependencies": {
-    "mocha": "^3.0.2",
+    "mocha": "^6.0.0",
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
