@@ -1,6 +1,6 @@
 {
   "name": "@headbright/hb-colorcolor",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "colorcolor converts Hex/HexA/RGB/RGBA/HSL/HSLA/HSV/HSB color strings to Hex/HexA/RGB/RGBA/HSL/HSLA/HSV/HSB color strings.",
   "main": "./src/colorcolor.js",
   "scripts": {
