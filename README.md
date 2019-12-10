@@ -1,26 +1,20 @@
 # colorcolor - Javascript Function
 
-[![Build Status](https://travis-ci.org/metaloha/color2color.svg?branch=master)](https://travis-ci.org/metaloha/color2color)
-
 The colorcolor function converts Hex/HexA/RGB/RGBA/HSL/HSLA/HSV/HSB color strings to Hex/HexA/RGB/RGBA/HSL/HSLA/HSV/HSB color strings.
 
-## Demo
 
-[http://metaloha.github.io/color2color/](http://metaloha.github.io/color2color/)
+[Forked from http://metaloha.github.io/color2color/](http://metaloha.github.io/color2color/)
 
 ## Install
 
-`colorcolor` is available via NPM:
+`@headbright/hb-colorcolor` is available via NPM:
 
-	npm install colorcolor
+	npm install @headbright/hb-colorcolor
 
-And Bower:
-
-	bower install colorcolor
-
-Of course, you can also just download the minified distribution file from here instead if you prefer :)
 
 ## Usage
+
+`import colorcolor from '@headbright/hb-colorcolor'`
 
 	colorcolor( string originalColor, [string newColorType( rgba|hex|hexa|rgb|hsl|hsla|hsv )], [bool calculateOpacity( false|true )]
 

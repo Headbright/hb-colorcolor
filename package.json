@@ -1,10 +1,12 @@
 {
-  "name": "hb-colorcolor",
-  "version": "1.1.2",
+  "name": "@headbright/hb-colorcolor",
+  "version": "1.1.3",
   "description": "colorcolor converts Hex/HexA/RGB/RGBA/HSL/HSLA/HSV/HSB color strings to Hex/HexA/RGB/RGBA/HSL/HSLA/HSV/HSB color strings.",
   "main": "./src/colorcolor.js",
   "scripts": {
-    "test": "grunt test"
+    "dev": "parcel ./src/colorcolor.js",
+    "build": "parcel build ./src/colorcolor.js",
+    "test": "mocha ./tests"
   },
   "repository": {
     "type": "git",
@@ -21,21 +23,16 @@
   },
   "homepage": "https://github.com/Headbright/hb-colorcolor",
   "devDependencies": {
-    "babel-preset-es2015": "^6.14.0",
-    "babelify": "^7.3.0",
-    "grunt": "^1.0.1",
-    "grunt-browserify": "^5.0.0",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-uglify": "^2.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-mocha-test": "^0.13.0",
-    "grunt-newer": "^1.2.0",
-    "jit-grunt": "^0.10.0",
     "mocha": "^3.0.2",
-    "watch": "^0.19.2"
+    "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
     "color-name": "^1.1.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "engines": {
+    "browsers": "defaults"
   }
 }
